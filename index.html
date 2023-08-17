@@ -25,19 +25,39 @@
                     <figure><img src="/images/triangle.png" alt="Rectangle" /></figure>
                     <div class="card-body">
                       <h2 class="card-title">triangle!</h2>
-                      <p>Area (A) = 0.5 * b * h</p>
+                      <p>Area (A) = 0.5 x b x h</p>
                       <p>
                         <input type="text" class="bg-gray-200 border w-24 text-xl px-2 rounded-xl" id="triangle-base" placeholder="base">
                         <span class="ml-2">cm</span>
                         <input type="text" class="ml-4 bg-gray-200 border w-24 text-xl px-2 rounded-xl" id="triangle-height" placeholder="height">
                         <span class="ml-2">cm</span>
                       </p>
-                      <p>Area: <span></span></p>
+                      <p class="text-2xl">Area: <span class="font-medium" id="triangle-area">0 </span>cm<sup>2</sup></p>
                       <div class="card-actions">
                         <button class="btn btn-primary w-full" onclick="calculateTriangleArea()">Calculate</button>
                       </div>
                     </div>
                   </div>
+
+                  <!-- Rectangle-card  -->
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure><img src="/images/rectangle.png" alt="Rectangle" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Rectangle!</h2>
+                      <p>Area (A) = w x l</p>
+                      <p>
+                        <input type="text" class="bg-gray-200 border w-24 text-xl px-2 rounded-xl" id="rectangle-width" placeholder="Width">
+                        <span class="ml-2">cm</span>
+                        <input type="text" class="ml-4 bg-gray-200 border w-24 text-xl px-2 rounded-xl" id="rectangle-length" placeholder="length">
+                        <span class="ml-2">cm</span>
+                      </p>
+                      <p class="text-2xl">Area: <span class="font-medium" id="rectangle-area">0 </span>cm<sup>2</sup></p>
+                      <div class="card-actions">
+                        <button class="btn btn-primary w-full" onclick="calculateRectangleArea()">Calculate</button>
+                      </div>
+                    </div>
+                  </div>
+
                 <!-- second-card  -->
                 <div class="card w-96 bg-base-100 shadow-xl">
                     <figure><img src="/images/rectangle.png" alt="Rectangle" /></figure>
